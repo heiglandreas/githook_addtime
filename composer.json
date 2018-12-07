@@ -1,0 +1,18 @@
+{
+    "name": "heiglandreas/captainhook_add_time",
+    "description": "Add the time since your last commit to the commit-message",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Heigl",
+            "email": "andreas@heigl.org"
+        }
+    ],
+    "require": {
+        "captainhook/captainhook": "^3.0"
+    },
+    "require-dev": {
+        "captainhook/plugin-composer": "^3.0"
+    }
+}
