@@ -23,5 +23,14 @@
     "pre-push": {
         "enabled": false,
         "actions": []
+    },
+    "prepare-commit-msg" : {
+        "enabled" : true,
+        "actions" : [{
+            "action" : "\\Org_Heigl\\CaptainHook\\Hooks\\AddTime\\AddTimeFactory",
+            "options" : {
+                "fuzziness": "\\Org_Heigl\\CaptainHook\\Hooks\\AddTime\\Fuzzier\\TenMinutesCeiling"
+            }
+        }]
     }
 }

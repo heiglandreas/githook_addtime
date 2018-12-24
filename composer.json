@@ -10,9 +10,21 @@
         }
     ],
     "require": {
+        "php" : "^7.2",
         "captainhook/captainhook": "^3.0"
     },
     "require-dev": {
-        "captainhook/plugin-composer": "^3.0"
+        "captainhook/plugin-composer": "^3.0",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Org_Heigl\\CaptainHook\\Hooks\\AddTime\\" : "src/"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+            "Org_Heigl\\CaptainHook\\Hooks\\AddTimeTest\\" : "test/"
+        }
     }
 }
