@@ -14,7 +14,7 @@
         "captainhook/captainhook": "^3.0"
     },
     "require-dev": {
-        "captainhook/plugin-composer": "^3.0",
+        "captainhook/plugin-composer": "^3.0 || ^5.0",
         "phpunit/phpunit": "^7.5"
     },
     "autoload" : {
